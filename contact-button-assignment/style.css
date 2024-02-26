@@ -1,0 +1,41 @@
+/*
+MY COLOR PALETTE
+Color 1 - #d4cbe5
+Color 2 - #449dd1
+Color 3 - #585191
+Color 4 - #d90368
+Color 5 - #f9627d
+*/
+
+body{
+    background-color: #585191;
+    text-align:center
+}
+
+button{
+    background-color: #f9627d;
+    color:white;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    padding:10px;
+    margin:15px;
+    border:none;
+    font-family: "Poppins", sans-serif;
+    border-radius:50px
+}
+
+button:hover{
+    background-color: black
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    color:white;
+    font-size:50px
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    color:white;
+}
