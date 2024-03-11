@@ -47,12 +47,13 @@ button{background-color:black;
     font-weight: <bold;
     font-style: normal;}
 
-.nav a {background-color:black;
+#nav a{
+    background-color:black;
     color:white;
-    font-size:20px;
+    font-size:18px;
     text-align:center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal}
-
+    font-weight: <bold;
+    font-style: normal;}
+}
