@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -18,37 +18,39 @@
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <br/>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-7">
-                    <br />
+            <div class="row" id="topper">
+                <div class="col-sm-7">
                     <br />
                     <h1>Marijke Friedman</h1>
                     <h2>Student Journalist</h2>
                     <div class="container">
                         <div class="center">
-                            <a href="mailto:mefriedman03@gmail.com" class="email-button">GET IN TOUCH</a> 
+                            <button id="button">
+                                <a href="mailto:mefriedman03@gmail.com"
+                                    >Get In Touch!</a
+                                >
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-sm-5">
                     <img
                         src="Marijke_Friedman_Headshot.jpg"
-                        alt="Marijke Friedman Headshot" />
+                        alt="Marijke Friedman Headshot"
+                        class="mx-auto d-block" />
                 </div>
             </div>
         </div>
-        <br />
         <div class="container-fluid" id="nav">
             <div class="row">
-                <div class="col-4">
+                <div class="col-sm-4 green">
                     <a href="#experience">Experience</a>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 green">
                     <a href="#skills">Skills</a>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 green">
                     <a href="#education">Education</a>
                 </div>
             </div>
@@ -60,88 +62,100 @@
                     <a name="experience"></a>
                     <h2 id="experience">Experience</h2>
                 </div>
+
                 <div class="row">
-                    <div class="col-4">
-                        <h3>Job title</h3>
-                        <h3>Company</h3>
-                        <h3>Dates</h3>
-                        <br />
+                    <div class="col-sm-4">
+                        <h3>Assistant News and General Assignments Editor</h3>
+                        <h5>The Diamondback</h5>
+                        <h4>April 2023 - Present</h4>
                     </div>
-                    <div class="col-8">
-                        <h4>Description of job</h4>
+                    <div class="col-sm-8">
+                        <h4>
+                            I work between two and three editing shifts per week
+                            and edit daily publication’s news stories for
+                            accuracy, grammar, structure and AP style, and
+                            upload them to WordPress. I also pitch and write
+                            stories about the University Senate and higher
+                            education and contribute to breaking news coverage.
+                            I help lead weekly beat and general assignments
+                            meetings, guide freelancers and staff writers
+                            through the reporting process and contribute to
+                            editorial decisions.
+                        </h4>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-4">
-                        <h3>Job title</h3>
-                        <h3>Company</h3>
-                        <h3>Dates</h3>
-                        <br />
+                    <div class="col-sm-4">
+                        <h3>Reporting Intern</h3>
+                        <h5>Montgomery Community Media</h5>
+                        <h4>August 2022 - April 2023</h4>
                     </div>
-                    <div class="col-8">
-                        <h4>Description of job</h4>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-4">
-                        <h3>Job title</h3>
-                        <h3>Company</h3>
-                        <h3>Dates</h3>
-                        <br />
-                    </div>
-                    <div class="col-8">
-                        <h4>Description of job</h4>
+                    <div class="col-sm-8">
+                        <h4>
+                            I pitched and wrote local news articles about county
+                            government, events, transportation and more for a
+                            digital community news organization. I also selected
+                            photos to accompany stories, wrote headlines and
+                            uploaded content to WordPress.
+                        </h4>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col">
-                        <a name="skills"></a>
-                        <h2 id="skills">Skills</h2>
-                        <h6>
-                            <ul>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                </li>
-                            </ul>
-                        </h6>
+                    <div class="col-sm-4">
+                        <h3>Staff Writer</h3>
+                        <h5>The Diamondback</h5>
+                        <h4>May 2023 - August 2023</h4>
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>
+                            I covered the Maryland General Assembly and Student
+                            Government Association breaking and enterprise news.
+                            I pitched and wrote two stories per week about
+                            campus and community news and contributed to
+                            breaking news coverage and blogs.
+                        </h4>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col">
-                        <a name="education"></a>
-                        <h2 id="education">Education</h2>
-                        <h5>
-                            Bachelor of Arts, Journalism and Government and
-                            Politics
-                        </h5>
-                        <h6>
-                            <ul>
-                                <li>University of Maryland, College Park</li>
-                                <li>Graduating in May 2026</li>
-                            </ul>
-                        </h6>
-                    </div>
+            <div class="row">
+                <div class="col">
+                    <a name="skills"></a>
+                    <h2 id="skills">Skills</h2>
+                    <h6>
+                        <ul>
+                            <li>
+                                Video editing with Final Cut Pro and Adobe
+                                Premiere Pro.
+                            </li>
+                            <li>
+                                Writing following the Associated Press
+                                Stylebook.
+                            </li>
+                            <li>
+                                Utilizing content management systems like Wix
+                                and WordPress.
+                            </li>
+                        </ul>
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a name="education"></a>
+                    <h2 id="education">Education</h2>
+                    <h5>
+                        Bachelor of Arts, Journalism and Government and Politics
+                    </h5>
+                    <h6>
+                        <ul>
+                            <li>University of Maryland, College Park</li>
+                            <li>Graduating in May 2026</li>
+                        </ul>
+                    </h6>
                 </div>
             </div>
         </div>
