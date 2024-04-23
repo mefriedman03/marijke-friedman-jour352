@@ -3,10 +3,13 @@ img{
 }
 
 #topper{
-    width: 960px;
+    width: 100%;
     background-color: black;
 }
 
 h1{
     color: white;
 }
+
+.caption{
+text-align: right}
