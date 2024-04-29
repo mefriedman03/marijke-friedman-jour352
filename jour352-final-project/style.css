@@ -40,16 +40,13 @@ body {
     padding-left: 20%;
     padding-right: 20%;
 }
-iframe {
-    align-content: center;
-}
 h3 {
     font-size: 20px;
     color: red;
 }
-hr{
+hr {
     color: red;
-    height: .5em;
+    height: 0.5em;
     background-color: red;
     opacity: 100%;
 }
