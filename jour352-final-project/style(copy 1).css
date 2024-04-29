@@ -48,8 +48,9 @@ h3 {
     color: red;
 }
 hr{
-    color: red;
-    height: .5em;
-    background-color: red;
-    opacity: 100%;
+    color: pink;
+    width: 65em;
+    height: 0.1em;
+    margin-left: 5%;
+    background-color: #FF66B3;
 }
