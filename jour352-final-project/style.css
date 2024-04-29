@@ -1,15 +1,24 @@
-img{
-    width:612px;
+img {
+    width: 500px;
 }
 
-#topper{
+#topper {
     width: 100%;
     background-color: black;
+    color: black;
 }
 
-h1{
+h1 {
     color: white;
 }
 
-.caption{
-text-align: right}
+.caption {
+    text-align: right;
+    color: black;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
