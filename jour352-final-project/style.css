@@ -1,4 +1,12 @@
 @media {
+    #lead-image{
+        background-image: url(baltimore%20sun%20image.png);
+        background-size:cover;
+        background-position:center;
+    }
+    #space{
+        height:400px;
+    }
     img {
         width: 100%;
     }
