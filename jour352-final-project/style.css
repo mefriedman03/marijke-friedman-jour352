@@ -23,13 +23,13 @@
     #caption {
         font-size: 14px;
         color: red;
-        text-align: center;
+        text-align: right;
         width:100%;
     }
     #image-caption {
         color: red;
         font-size: 14px;
-        text-align: center;
+        text-align: left;
     }
     h4 {
         color: white;
